@@ -6,6 +6,27 @@
   }
   /* フッターのタイトルフォント変更 */
 .ec-footerTitle {
-    font-family: 'Philosopher', sans-serif;
-    color: blue;
+     font-family: 'Philosopher', sans-serif;
+}
+
+.ec-headerRole {
+    animation: color-change 5s linear infinite;
+}
+
+@keyframes color-change {
+  0%,100%{
+    background-color:#ff1493;
+  }
+
+  25%{
+    background-color:#7fff00;
+  }
+  
+  50%{
+    background-color:#0091EA;
+  }
+  
+  75%{
+    background-color:#9400d3;
+  }
 }
